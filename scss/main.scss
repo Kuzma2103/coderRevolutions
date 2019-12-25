@@ -28,6 +28,7 @@ body {
     }
     
     .hero-subtitle {
+        margin-top: 70px;
         font-size: 24px;
     }
     
@@ -63,6 +64,31 @@ body {
         background: $green;
         color: $white !important;
         border-radius: 4px;
-        // font-size: 16px !important;
+    }
+}
+
+#hero-section {
+
+    padding: 0;
+
+    .inner-content {
+        padding: 90px 200px 120px 90px;
+    }
+
+    .line::after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 7px;
+        background: $line-color;
+        margin-top: 30px;
+    }
+
+    .purple-button {
+        margin-top: 70px;
+        padding: 18px 50px !important;
+        background: $purple;
+        color: $white !important;
+        border-radius: 4px;
     }
 }

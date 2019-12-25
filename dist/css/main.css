@@ -16,6 +16,7 @@ body {
   body .hero-title {
     font-size: 48px; }
   body .hero-subtitle {
+    margin-top: 70px;
     font-size: 24px; }
   body .section-title {
     margin: 0 !important;
@@ -37,5 +38,23 @@ body {
   .navbar .green-button {
     padding: 10px 20px !important;
     background: #1FA59A;
+    color: #fff !important;
+    border-radius: 4px; }
+
+#hero-section {
+  padding: 0; }
+  #hero-section .inner-content {
+    padding: 90px 200px 120px 90px; }
+  #hero-section .line::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 7px;
+    background: #DBDBDB;
+    margin-top: 30px; }
+  #hero-section .purple-button {
+    margin-top: 70px;
+    padding: 18px 50px !important;
+    background: #7F84FF;
     color: #fff !important;
     border-radius: 4px; }
