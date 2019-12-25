@@ -1,0 +1,68 @@
+@import 'variables';
+
+// Basic Setup
+body {
+    background: $white;
+    font-family: 'Montserrat', sans-serif;
+    color: $primary-color;
+    font-size: 18px;
+
+    section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    a {
+        text-decoration: none !important;
+        color: $primary-color !important;
+    }
+    
+    #logo {
+        font-size: 34px;
+        color: $primary-color;
+        font-family: 'Comfortaa', cursive !important;
+    }
+    
+    .hero-title {
+        font-size: 48px;
+    }
+    
+    .hero-subtitle {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        margin: 0 !important;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .section-subtitle {
+        margin: 0 !important;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 2px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+}
+
+.navbar {
+
+    box-shadow: $shadow-box;
+
+    .nav-link {
+        font-size: 16px !important;
+    }
+
+    .green-button {
+        padding: 10px 20px !important;
+        background: $green;
+        color: $white !important;
+        border-radius: 4px;
+        // font-size: 16px !important;
+    }
+}
