@@ -45,18 +45,24 @@ body {
         font-weight: normal;
         letter-spacing: 2px;
     }
+
+    .separator {
+        margin-bottom: 70px;
+    }
+    .big-separator {
+        margin-bottom: 100px;
+    }
     
     p {
         font-size: 18px;
     }
-}
 
-.navbar {
-
-    box-shadow: $shadow-box;
-
-    .nav-link {
-        font-size: 16px !important;
+    .purple-button {
+        margin-top: 70px;
+        padding: 18px 50px !important;
+        background: $purple;
+        color: $white !important;
+        border-radius: 4px;
     }
 
     .green-button {
@@ -67,12 +73,22 @@ body {
     }
 }
 
+.navbar {
+
+    box-shadow: $shadow-box;
+
+    .nav-link {
+        font-size: 16px !important;
+    }
+    
+}
+
 #hero-section {
 
     padding: 0;
 
     .inner-content {
-        padding: 90px 200px 120px 90px;
+        padding: 90px 90px 120px 90px;
     }
 
     .line::after {
@@ -84,11 +100,8 @@ body {
         margin-top: 30px;
     }
 
-    .purple-button {
-        margin-top: 70px;
-        padding: 18px 50px !important;
-        background: $purple;
-        color: $white !important;
-        border-radius: 4px;
-    }
+}
+
+#services {
+    background: $grey;
 }

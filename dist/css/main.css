@@ -28,23 +28,33 @@ body {
     font-size: 22px;
     font-weight: normal;
     letter-spacing: 2px; }
+  body .separator {
+    margin-bottom: 70px; }
+  body .big-separator {
+    margin-bottom: 100px; }
   body p {
     font-size: 18px; }
-
-.navbar {
-  box-shadow: 0px 3px 6px #ccc; }
-  .navbar .nav-link {
-    font-size: 16px !important; }
-  .navbar .green-button {
+  body .purple-button {
+    margin-top: 70px;
+    padding: 18px 50px !important;
+    background: #7F84FF;
+    color: #fff !important;
+    border-radius: 4px; }
+  body .green-button {
     padding: 10px 20px !important;
     background: #1FA59A;
     color: #fff !important;
     border-radius: 4px; }
 
+.navbar {
+  box-shadow: 0px 3px 6px #ccc; }
+  .navbar .nav-link {
+    font-size: 16px !important; }
+
 #hero-section {
   padding: 0; }
   #hero-section .inner-content {
-    padding: 90px 200px 120px 90px; }
+    padding: 90px 90px 120px 90px; }
   #hero-section .line::after {
     content: '';
     display: block;
@@ -52,9 +62,6 @@ body {
     height: 7px;
     background: #DBDBDB;
     margin-top: 30px; }
-  #hero-section .purple-button {
-    margin-top: 70px;
-    padding: 18px 50px !important;
-    background: #7F84FF;
-    color: #fff !important;
-    border-radius: 4px; }
+
+#services {
+  background: #FAFAFA; }
