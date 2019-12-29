@@ -28,6 +28,8 @@ body {
     font-size: 22px;
     font-weight: normal;
     letter-spacing: 2px; }
+  body .grey-section {
+    background: #FAFAFA; }
   body .separator {
     margin-bottom: 70px; }
   body .big-separator {
@@ -63,5 +65,9 @@ body {
     background: #DBDBDB;
     margin-top: 30px; }
 
-#services {
-  background: #FAFAFA; }
+#our-projects .project-img {
+  transition: all .2s ease-in-out; }
+
+#our-projects .project-img:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1); }

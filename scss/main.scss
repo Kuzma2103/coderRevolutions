@@ -46,6 +46,10 @@ body {
         letter-spacing: 2px;
     }
 
+    .grey-section {
+        background: $grey;
+    }
+
     .separator {
         margin-bottom: 70px;
     }
@@ -102,6 +106,14 @@ body {
 
 }
 
-#services {
-    background: $grey;
+#our-projects {
+
+    .project-img {
+        transition: all .2s ease-in-out;
+    }
+
+    .project-img:hover {
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
 }
