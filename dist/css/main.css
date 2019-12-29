@@ -53,6 +53,19 @@ body {
     background: #1FA59A;
     color: #fff !important;
     border-radius: 4px; }
+  body .footer-title {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff; }
+  body .footer-link {
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff; }
+  body .footer-green-link {
+    color: #1FA59A;
+    font-size: 16px;
+    font-weight: normal; }
 
 .navbar {
   box-shadow: 0px 3px 6px #ccc; }
@@ -77,3 +90,11 @@ body {
 #our-projects .project-img:hover {
   cursor: pointer;
   transform: scale(1.1, 1.1); }
+
+#footer {
+  background-color: #0F1936; }
+  #footer .footer-one {
+    padding: 70px 100px; }
+  #footer .footer-two {
+    padding: 25px 100px;
+    font-size: 12px; }
