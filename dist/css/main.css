@@ -9,6 +9,8 @@ body {
   body a {
     text-decoration: none !important;
     color: #353944 !important; }
+  body .ml-6 {
+    margin-left: 7rem; }
   body #logo {
     font-size: 34px;
     color: #353944;
@@ -34,8 +36,12 @@ body {
     margin-bottom: 70px; }
   body .big-separator {
     margin-bottom: 100px; }
+  body .biger-separator {
+    margin-bottom: 200px; }
   body p {
     font-size: 18px; }
+  body .small-text {
+    font-size: 14px; }
   body .purple-button {
     margin-top: 70px;
     padding: 18px 50px !important;

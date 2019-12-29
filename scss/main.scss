@@ -17,6 +17,10 @@ body {
         color: $primary-color !important;
     }
     
+    .ml-6 {
+        margin-left: 7rem;
+    }
+
     #logo {
         font-size: 34px;
         color: $primary-color;
@@ -56,9 +60,16 @@ body {
     .big-separator {
         margin-bottom: 100px;
     }
-    
+    .biger-separator {
+        margin-bottom: 200px;
+    }
+
     p {
         font-size: 18px;
+    }
+
+    .small-text {
+        font-size: 14px;
     }
 
     .purple-button {
